@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046A18A126268378003A9057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A18A026268378003A9057 /* AppDelegate.swift */; };
+		046A18A326268378003A9057 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A18A226268378003A9057 /* SceneDelegate.swift */; };
+		046A18A526268378003A9057 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A18A426268378003A9057 /* ContentView.swift */; };
+		046A18A826268378003A9057 /* WisataIndonesia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046A18A626268378003A9057 /* WisataIndonesia.xcdatamodeld */; };
+		046A18AA26268379003A9057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046A18A926268379003A9057 /* Assets.xcassets */; };
+		046A18AD26268379003A9057 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046A18AC26268379003A9057 /* Preview Assets.xcassets */; };
+		046A18B026268379003A9057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046A18AE26268379003A9057 /* LaunchScreen.storyboard */; };
+		046A18BC2626908B003A9057 /* ListWisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A18BB2626908B003A9057 /* ListWisata.swift */; };
+		046A18C026269099003A9057 /* DetailWisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A18BF26269099003A9057 /* DetailWisata.swift */; };
+		046A18C326269119003A9057 /* Wisata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A18C226269119003A9057 /* Wisata.swift */; };
+		046A18C7262691D1003A9057 /* Wisatadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A18C6262691D1003A9057 /* Wisatadata.swift */; };
+		04BAA2FF2626D1BD00986DE2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAA2FE2626D1BD00986DE2 /* Profile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046A189D26268378003A9057 /* WisataIndonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisataIndonesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046A18A026268378003A9057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046A18A226268378003A9057 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046A18A426268378003A9057 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		046A18A726268378003A9057 /* WisataIndonesia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WisataIndonesia.xcdatamodel; sourceTree = "<group>"; };
+		046A18A926268379003A9057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046A18AC26268379003A9057 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		046A18AF26268379003A9057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046A18B126268379003A9057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046A18BB2626908B003A9057 /* ListWisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWisata.swift; sourceTree = "<group>"; };
+		046A18BF26269099003A9057 /* DetailWisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWisata.swift; sourceTree = "<group>"; };
+		046A18C226269119003A9057 /* Wisata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wisata.swift; sourceTree = "<group>"; };
+		046A18C6262691D1003A9057 /* Wisatadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wisatadata.swift; sourceTree = "<group>"; };
+		04BAA2FE2626D1BD00986DE2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046A189A26268378003A9057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046A189426268378003A9057 = {
+			isa = PBXGroup;
+			children = (
+				046A189F26268378003A9057 /* WisataIndonesia */,
+				046A189E26268378003A9057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046A189E26268378003A9057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046A189D26268378003A9057 /* WisataIndonesia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046A189F26268378003A9057 /* WisataIndonesia */ = {
+			isa = PBXGroup;
+			children = (
+				046A18B826268F39003A9057 /* Model */,
+				046A18BA2626904C003A9057 /* Data */,
+				046A18B926269043003A9057 /* View */,
+				046A18A026268378003A9057 /* AppDelegate.swift */,
+				046A18A226268378003A9057 /* SceneDelegate.swift */,
+				046A18A426268378003A9057 /* ContentView.swift */,
+				046A18A926268379003A9057 /* Assets.xcassets */,
+				046A18AE26268379003A9057 /* LaunchScreen.storyboard */,
+				046A18B126268379003A9057 /* Info.plist */,
+				046A18A626268378003A9057 /* WisataIndonesia.xcdatamodeld */,
+				046A18AB26268379003A9057 /* Preview Content */,
+			);
+			path = WisataIndonesia;
+			sourceTree = "<group>";
+		};
+		046A18AB26268379003A9057 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				046A18AC26268379003A9057 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		046A18B826268F39003A9057 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046A18C226269119003A9057 /* Wisata.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046A18B926269043003A9057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046A18BB2626908B003A9057 /* ListWisata.swift */,
+				046A18BF26269099003A9057 /* DetailWisata.swift */,
+				04BAA2FE2626D1BD00986DE2 /* Profile.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046A18BA2626904C003A9057 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				046A18C6262691D1003A9057 /* Wisatadata.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046A189C26268378003A9057 /* WisataIndonesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046A18B426268379003A9057 /* Build configuration list for PBXNativeTarget "WisataIndonesia" */;
+			buildPhases = (
+				046A189926268378003A9057 /* Sources */,
+				046A189A26268378003A9057 /* Frameworks */,
+				046A189B26268378003A9057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WisataIndonesia;
+			productName = WisataIndonesia;
+			productReference = 046A189D26268378003A9057 /* WisataIndonesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046A189526268378003A9057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					046A189C26268378003A9057 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 046A189826268378003A9057 /* Build configuration list for PBXProject "WisataIndonesia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046A189426268378003A9057;
+			productRefGroup = 046A189E26268378003A9057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046A189C26268378003A9057 /* WisataIndonesia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046A189B26268378003A9057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A18B026268379003A9057 /* LaunchScreen.storyboard in Resources */,
+				046A18AD26268379003A9057 /* Preview Assets.xcassets in Resources */,
+				046A18AA26268379003A9057 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046A189926268378003A9057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A18A126268378003A9057 /* AppDelegate.swift in Sources */,
+				046A18C026269099003A9057 /* DetailWisata.swift in Sources */,
+				046A18A326268378003A9057 /* SceneDelegate.swift in Sources */,
+				046A18BC2626908B003A9057 /* ListWisata.swift in Sources */,
+				046A18A526268378003A9057 /* ContentView.swift in Sources */,
+				046A18C326269119003A9057 /* Wisata.swift in Sources */,
+				046A18C7262691D1003A9057 /* Wisatadata.swift in Sources */,
+				04BAA2FF2626D1BD00986DE2 /* Profile.swift in Sources */,
+				046A18A826268378003A9057 /* WisataIndonesia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046A18AE26268379003A9057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046A18AF26268379003A9057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046A18B226268379003A9057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046A18B326268379003A9057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046A18B526268379003A9057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WisataIndonesia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WisataIndonesia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Growdev.WisataIndonesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046A18B626268379003A9057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WisataIndonesia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WisataIndonesia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Growdev.WisataIndonesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046A189826268378003A9057 /* Build configuration list for PBXProject "WisataIndonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A18B226268379003A9057 /* Debug */,
+				046A18B326268379003A9057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046A18B426268379003A9057 /* Build configuration list for PBXNativeTarget "WisataIndonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A18B526268379003A9057 /* Debug */,
+				046A18B626268379003A9057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046A18A626268378003A9057 /* WisataIndonesia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046A18A726268378003A9057 /* WisataIndonesia.xcdatamodel */,
+			);
+			currentVersion = 046A18A726268378003A9057 /* WisataIndonesia.xcdatamodel */;
+			path = WisataIndonesia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046A189526268378003A9057 /* Project object */;
+}
